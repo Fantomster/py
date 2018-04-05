@@ -78,10 +78,17 @@ for i, item in enumerate(input_data):
     if item.isdigit():
         input_data_encoded[i] = int(input_data[i])
     else:
+        print(input_data_encoded[i])
+        print(label_encoder)
+        print(input_data[i])
+        exit()
+        print(label_encoder[count].transform(input_data[i]))
         input_data_encoded[i] = int(label_encoder[count].transform(input_data[i]))
         count += 1
+# print(input_data_encoded)
 input_data_encoded = np.array(input_data_encoded)
-exit()
+# print(input_data_encoded)
+
 # Run classifier on encoded datapoint and prunt output
 predicted_class = classifier.predict(input_data_encoded)
 print(label_encoder[-1].inverse_transform(predicted_class)[0])
