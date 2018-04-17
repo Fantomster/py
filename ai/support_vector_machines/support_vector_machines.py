@@ -38,9 +38,7 @@ X = np.array(X)
 
 # Convert string data to numerical data
 label_encoder = []
-print(X)
 X_encoded = np.empty(X.shape)
-print(X_encoded)
 
 for i, item in enumerate(X[0]):
     if item.isdigit():
@@ -78,17 +76,15 @@ for i, item in enumerate(input_data):
     if item.isdigit():
         input_data_encoded[i] = int(input_data[i])
     else:
-        print(input_data_encoded[i])
-        print(label_encoder)
+        # print(label_encoder[count].transform(input_data[i]))
+        print(item)
         print(input_data[i])
-        exit()
-        print(label_encoder[count].transform(input_data[i]))
         input_data_encoded[i] = int(label_encoder[count].transform(input_data[i]))
         count += 1
 # print(input_data_encoded)
 input_data_encoded = np.array(input_data_encoded)
 # print(input_data_encoded)
 
-# Run classifier on encoded datapoint and prunt output
+# Run classifier on encoded datapoint and print output
 predicted_class = classifier.predict(input_data_encoded)
 print(label_encoder[-1].inverse_transform(predicted_class)[0])
