@@ -37,6 +37,6 @@ def getLinks(pageUrl, recursionLevel):
             newPage = link.attrs['href']
             pages.add(newPage)
             getLinks(newPage, recursionLevel+1)
-    getLinks("/wiki/Kevin_Bacon", 0)
-    cur.close()
-    conn.close()
+getLinks("/wiki/Kevin_Bacon", 0)
+cur.close()
+conn.close()
