@@ -1,9 +1,10 @@
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import re
-
+# Recursion crawler
 pages = set()
 def getLinks(pageUrl):
+
     global pages
     html = urlopen("http://en.wikipedia.org"+pageUrl)
     bsObj = BeautifulSoup(html)
