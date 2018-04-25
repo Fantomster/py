@@ -2,10 +2,10 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import pymysql
 
-conn = pymysql.connect(host='127.0.0.1', port=3306, user='root', passwd=None, db='mysql', charset='utf8')
+conn = pymysql.connect(host='127.0.0.1', port=3306, user='root', passwd=None, db='scraping', charset='utf8')
 
 cur = conn.cursor()
-cur.execute('USE wikipedia')
+cur.execute('USE scraping')
 
 class SolutionFound(RuntimeError):
     def __init__(self, message):
@@ -48,7 +48,7 @@ def searchDepth(targetPageId, currentPageId, linkTree, depth):
     return linkTree
 
 try:
-    searchDepth(134951, 1, {}, 4)
+    searchDepth(29, 1, {}, 5)
     print("No solution found")
 except SolutionFound as e:
     print(e.message)
