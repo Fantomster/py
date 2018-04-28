@@ -1,6 +1,9 @@
 import unittest
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
+import urllib
+import re
+import random
 
 class TestWikipedia(unittest.TestCase):
     bsObj = None
@@ -23,10 +26,16 @@ class TestWikipedia(unittest.TestCase):
     def titleMatchesURL(self):
         global bsObj
         global url
+        print(bsObj.find('h1'))
         pageTitle = bsObj.find('h1').get_text()
-        urlTitle = url[(url.index('/wiki/')+6)]
+        try:
+            urlTitle = url[(url.index('/wiki/')+6):]
+        except ValueError:
+            print(url.index('/wiki/')+6)
+
+        urlTitle = url[(url.index('/wiki/')+6):]
         urlTitle = urlTitle.replace('_', ' ')
-        urlTitle = unquote(urlTitle)
+        urlTitle = urllib.request.unquote(urlTitle)
         return [pageTitle.lower(), urlTitle.lower()]
 
     def contentExists(self):
@@ -38,40 +47,27 @@ class TestWikipedia(unittest.TestCase):
 
     def getNextLink(self):
         global bsObj
-        bsObj = BeautifulSoup(html)
-        externalLinks = getExternalLinks(bsObj, splitAddress(startingPage)[0])
-        if len(externalLinks) == 0:
-            internalLinks = getInternalLinks(startingPage)
-            return getNextExternalLink(internalLinks[random.randint(0, len(internalLinks)-1)])
-        else:
-            return externalLinks[random.randint(0, len(externalLinks)-1)]
+        global url
+        externalLinks = self.getExternalLinks()
+
+        return externalLinks[random.randint(0, len(externalLinks)-1)]
+
+    def getExternalLinks(self):
+        global bsObj
+        externalLinks = []
+        #Находим все ссылки, которые начинаются с "http" или "www"
+        #не содержат текущего URL-адреса
+        for link in bsObj.findAll("a", href=re.compile("^(http|www).*$")):
+            if link.attrs['href'] is not None:
+                if link.attrs['href'] not in externalLinks:
+                    externalLinks.append(link.attrs['href'])
+        return externalLinks
+
+    def splitAddress(self, address):
+        addressParts = address.replace("http://", "").split("/")
+        return addressParts
 
 if __name__ == '__main__':
     unittest.main()
 
-
-
 #Извлекаем список всех внешних ссылок, найденных на странице
-def getExternalLinks(bsObj, excludeUrl):
-    externalLinks = []
-    #Находим все ссылки, которые начинаются с "http" или "www"
-    #не содержат текущего URL-адреса
-    for link in bsObj.findAll("a", href=re.compile("^(http|www)((?!"+excludeUrl+").)*$")):
-        if link.attrs['href'] is not None:
-            if link.attrs['href'] not in externalLinks:
-                externalLinks.append(link.attrs['href'])
-    return externalLinks
-
-def splitAddress(address):
-    addressParts = address.replace("http://", "").split("/")
-    return addressParts
-
-def getRandomExternalLink(startingPage):
-    html = urlopen(startingPage)
-    bsObj = BeautifulSoup(html)
-    externalLinks = getExternalLinks(bsObj, splitAddress(startingPage)[0])
-    if len(externalLinks) == 0:
-        internalLinks = getInternalLinks(startingPage)
-        return getNextExternalLink(internalLinks[random.randint(0, len(internalLinks)-1)])
-    else:
-        return externalLinks[random.randint(0, len(externalLinks)-1)]
