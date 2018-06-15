@@ -1,8 +1,7 @@
 {% extends "mainApp/wrapper.html" %}
 
 {% block content %}
-	<p>Block Content</p>
-
-{% include "mainApp/includes/some_html.html" %}
-
+	{% for val in values %}
+		<p>{{val}}</p>
+	{% endfor %}
 {% endblock %}
