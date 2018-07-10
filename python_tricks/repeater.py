@@ -58,7 +58,6 @@ while True:
         item = next(iterator)
     except StopIteration:
         break
-    print(item)
 
 class InfiniteRepeater(object):
     def __init__(self, value):
