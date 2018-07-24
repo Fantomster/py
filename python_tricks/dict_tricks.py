@@ -4,8 +4,23 @@ name_for_userid = {
     590: 'Dilbert',
 }
 
-def greeting(userid):
-    return 'Hi %s!' % name_for_userid[userid]
+# Non Pythonic way
+# def greeting(userid):
+#     if userid in name_for_userid:
+#         return 'Hi %s!' % name_for_userid[userid]
+#     else:
+#         return 'Hi there!'
 
-print(greeting(382))
-# print(greeting(3821))
+# More Pythonic way
+def greeting(userid):
+    try:
+        return 'Hi %s!' % name_for_userid[userid]
+    except KeyError:
+        return 'Hi there!'
+
+# Pythonic way
+def greeting1(userid):
+    return 'Hi %s!' % name_for_userid.get(userid, 'there')
+
+print(greeting1(382))
+print(greeting1(3821))
