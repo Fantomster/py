@@ -35,6 +35,7 @@ one_hot_test_labels = to_categorical(test_labels)
 model = models.Sequential()
 model.add(layers.Dense(64, activation='relu', input_shape=(10000, )))
 model.add(layers.Dense(64, activation='relu'))
+# model.add(layers.Dense(4, activation='relu'))
 model.add(layers.Dense(46, activation='softmax'))
 
 model.compile(optimizer='rmsprop',
@@ -49,8 +50,8 @@ partial_y_train = one_hot_train_labels[1000:]
 
 history = model.fit(partial_x_train,
                     partial_y_train,
-                    epochs=9,
-                    batch_size=512,
+                    epochs=21,
+                    batch_size=128,
                     validation_data=(x_val, y_val))
 
 results = model.evaluate(x_test, one_hot_test_labels)
@@ -70,3 +71,14 @@ print(np.sum(predictions[0]))
 print(np.argmax(predictions[0]))
 # print(predictions)
 for x in predictions[0]: print('%f' % x)
+
+# Different way to handle the labels and the loss
+y_train = np.array(train_labels)
+y_test = np.array(test_labels)
+
+print(y_train)
+print(y_test)
+
+# model.compile(optimizer='rmsprop',
+#               loss='sparse_categorical_crossentropy',
+#               metrics=['acc'])
