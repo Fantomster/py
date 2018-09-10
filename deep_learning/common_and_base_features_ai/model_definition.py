@@ -1,4 +1,4 @@
-from keras import models, layers
+from keras import models, layers, regularizers
 from keras.datasets import imdb
 import numpy as np
 import matplotlib.pyplot as plt
@@ -6,8 +6,14 @@ import matplotlib.pyplot as plt
 (train_data, train_labels), (test_data, test_labels) = imdb.load_data(num_words=10000)
 
 model = models.Sequential()
-model.add(layers.Dense(16, activation='relu', input_shape=(10000,  )))
-model.add(layers.Dense(16, activation='relu'))
+# model.add(layers.Dense(16, activation='relu', input_shape=(10000,  )))
+# model.add(layers.Dense(16, activation='relu'))
+# model.add(layers.Dense(16, activation='relu', input_shape=(10000,  ), kernel_regularizer=regularizers.l2(0.001)))
+# model.add(layers.Dense(16, activation='relu', kernel_regularizer=regularizers.l2(0.001)))
+# model.add(layers.Dense(16, activation='relu', input_shape=(10000,  ), kernel_regularizer=regularizers.l1(0.001)))
+# model.add(layers.Dense(16, activation='relu', kernel_regularizer=regularizers.l1(0.001)))
+model.add(layers.Dense(16, activation='relu', input_shape=(10000,  ), kernel_regularizer=regularizers.l1_l2(0.001)))
+model.add(layers.Dense(16, activation='relu', kernel_regularizer=regularizers.l1_l2(0.001)))
 model.add(layers.Dense(1, activation='sigmoid'))
 
 # from keras import optimizers
