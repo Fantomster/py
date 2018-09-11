@@ -19,3 +19,4 @@ model = get_model()
 model.train(data)
 test_score = model.evaluate(test_data)
 
+# iterated K-fold validation is shuffle data in loop with this k-fold-cross-validation
