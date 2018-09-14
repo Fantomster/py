@@ -26,7 +26,14 @@ test_labels = to_categorical(test_labels)
 model.compile(optimizer='rmsprop',
               loss='categorical_crossentropy',
               metrics=['accuracy'])
-model.fit(train_images, train_labels, epochs=5, batch_size=64)
+# model.fit(train_images, train_labels, epochs=5, batch_size=64)
+# model.summary()
+# test_loss, test_acc = model.evaluate(test_images, test_labels)
+# print(test_acc)
 
-test_loss, test_acc = model.evaluate(test_images, test_labels)
-test_acc
+model_no_max_pool = models.Sequential()
+model_no_max_pool.add(layers.Conv2D(32, (3, 3), activation='relu', input_shape=(28, 28, 1)))
+model_no_max_pool.add(layers.Conv2D(64, (3, 3), activation='relu'))
+model_no_max_pool.add(layers.Conv2D(64, (3, 3), activation='relu'))
+
+model_no_max_pool.summary()
