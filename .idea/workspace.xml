@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec8407c9-3ad6-4215-8b23-d01a2fbca804" name="Default" comment="30.10.2018">
-      <change afterPath="$PROJECT_DIR$/DataScience_first_principles/salaries_and_expirience.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataScience_first_principles/topics_of_interest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_learning/common_and_base_features_ai/base_nets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_learning/deep_dreams/auxillary_functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_learning/deep_dreams/dd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_learning/deep_dreams/style_transfer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_learning/gan/gan_generator_network.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_learning/generation_images/CustomVariationalLayer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_learning/generation_images/style_transfer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_learning/generation_images/vae_encoder_network.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_learning/generation_images/vae_implementation.py" afterDir="false" />
+    <list default="true" id="ec8407c9-3ad6-4215-8b23-d01a2fbca804" name="Default" comment="12.11.2018">
+      <change afterPath="$PROJECT_DIR$/DataScience_first_principles/_python_commons.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataScience_first_principles/hypothesis_and_inference/flipping_a_coin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataScience_first_principles/linear_algebra/correlation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataScience_first_principles/linear_algebra/describing_single_set_of_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataScience_first_principles/linear_algebra/matrices.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataScience_first_principles/linear_algebra/vectors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataScience_first_principles/set_implementation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataScience_first_principles/visualization/bar_charts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataScience_first_principles/visualization/line_charts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataScience_first_principles/visualization/matplotlib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataScience_first_principles/visualization/scatterplots.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataScience_first_principles/friendships.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataScience_first_principles/friendships.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,20 +26,24 @@
     <SUITE FILE_PATH="coverage/py$coloring.coverage" NAME="coloring Coverage Results" MODIFIED="1532374356875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/heuristic_search" />
     <SUITE FILE_PATH="coverage/py$dict_tricks.coverage" NAME="dict_tricks Coverage Results" MODIFIED="1531113813323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_tricks" />
     <SUITE FILE_PATH="coverage/py$imdb.coverage" NAME="imdb Coverage Results" MODIFIED="1540193806652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning/convnets_text" />
+    <SUITE FILE_PATH="coverage/py$scatterplots.coverage" NAME="scatterplots Coverage Results" MODIFIED="1542208377880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataScience_first_principles/visualization" />
     <SUITE FILE_PATH="coverage/py$network_architecture.coverage" NAME="network_architecture Coverage Results" MODIFIED="1534098214804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning" />
     <SUITE FILE_PATH="coverage/py$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1534223024192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning" />
     <SUITE FILE_PATH="coverage/py$mnist_convnet.coverage" NAME="mnist_convnet Coverage Results" MODIFIED="1536954161603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning/convnets" />
     <SUITE FILE_PATH="coverage/py$two_input_question_answer_model.coverage" NAME="two_input_question_answer_model Coverage Results" MODIFIED="1540363440796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning/functional_api" />
+    <SUITE FILE_PATH="coverage/py$line_charts.coverage" NAME="line_charts Coverage Results" MODIFIED="1542205617049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataScience_first_principles/visualization" />
     <SUITE FILE_PATH="coverage/py$model_definition_4_epochs.coverage" NAME="model_definition_4_epochs Coverage Results" MODIFIED="1536084665438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning/common_and_base_features_ai" />
     <SUITE FILE_PATH="coverage/py$scratch_5.coverage" NAME="scratch_5 Coverage Results" MODIFIED="1529136615348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/py$mean_shift.coverage" NAME="mean_shift Coverage Results" MODIFIED="1531420201426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ai/unsupervised_learning" />
     <SUITE FILE_PATH="coverage/py$vgg16.coverage" NAME="vgg16 Coverage Results" MODIFIED="1537105667136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning/convnets" />
+    <SUITE FILE_PATH="coverage/py$matplotlib.coverage" NAME="matplotlib Coverage Results" MODIFIED="1542174002608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataScience_first_principles/visualization" />
     <SUITE FILE_PATH="coverage/py$char_lvl_one_hot_enc.coverage" NAME="char_lvl_one_hot_enc Coverage Results" MODIFIED="1537709878370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning/text_and_sequences" />
     <SUITE FILE_PATH="coverage/py$SimpleRNN.coverage" NAME="SimpleRNN Coverage Results" MODIFIED="1539359319080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning/rnn" />
     <SUITE FILE_PATH="coverage/py$math_operations.coverage" NAME="math_operations Coverage Results" MODIFIED="1534602382334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning/common_and_base_features_ai" />
     <SUITE FILE_PATH="coverage/py$generators.coverage" NAME="generators Coverage Results" MODIFIED="1531112855776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_tricks" />
     <SUITE FILE_PATH="coverage/py$cats_vs_dogs.coverage" NAME="cats_vs_dogs Coverage Results" MODIFIED="1537097203556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning/convnets" />
     <SUITE FILE_PATH="coverage/py$repeater.coverage" NAME="repeater Coverage Results" MODIFIED="1530642810747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_tricks" />
+    <SUITE FILE_PATH="coverage/py$matrices.coverage" NAME="matrices Coverage Results" MODIFIED="1542285541645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataScience_first_principles/linear_algebra" />
     <SUITE FILE_PATH="coverage/py$model_definition.coverage" NAME="model_definition Coverage Results" MODIFIED="1536006442660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning/common_and_base_features_ai" />
     <SUITE FILE_PATH="coverage/py$reuters_multi_classifier.coverage" NAME="reuters_multi_classifier Coverage Results" MODIFIED="1536209832046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning" />
     <SUITE FILE_PATH="coverage/py$text_generation_lstm.coverage" NAME="text_generation_lstm Coverage Results" MODIFIED="1540870396356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning/generative_deep_learning" />
@@ -50,6 +53,7 @@
     <SUITE FILE_PATH="coverage/py$scalar.coverage" NAME="scalar Coverage Results" MODIFIED="1534220452032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning/data_representations_for_nn" />
     <SUITE FILE_PATH="coverage/py$lstm_rnn_imdb.coverage" NAME="lstm_rnn_imdb Coverage Results" MODIFIED="1539796881555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning/rnn" />
     <SUITE FILE_PATH="coverage/py$implement_of_a_three_output_model.coverage" NAME="implement_of_a_three_output_model Coverage Results" MODIFIED="1540446059916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning/functional_api" />
+    <SUITE FILE_PATH="coverage/py$describing_single_set_of_data.coverage" NAME="describing_single_set_of_data Coverage Results" MODIFIED="1542372294497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataScience_first_principles/linear_algebra" />
     <SUITE FILE_PATH="coverage/py$training_and_evaluating_lstm_reverse_sequence.coverage" NAME="training_and_evaluating_lstm_reverse_sequence Coverage Results" MODIFIED="1540012639080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning/rnn" />
     <SUITE FILE_PATH="coverage/py$simpleRNN_imdb.coverage" NAME="simpleRNN_imdb Coverage Results" MODIFIED="1539545859672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning/rnn" />
     <SUITE FILE_PATH="coverage/py$copying_images_to_training.coverage" NAME="copying_images_to_training Coverage Results" MODIFIED="1537085900555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning" />
@@ -60,9 +64,10 @@
     <SUITE FILE_PATH="coverage/py$1.coverage" NAME="1 Coverage Results" MODIFIED="1532456320491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataScience_first_principles" />
     <SUITE FILE_PATH="coverage/py$numpy_implementation_for_simple_rnn.coverage" NAME="numpy_implementation_for_simple_rnn Coverage Results" MODIFIED="1539358256152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning/rnn" />
     <SUITE FILE_PATH="coverage/py$world_level_one_hot_enc.coverage" NAME="world_level_one_hot_enc Coverage Results" MODIFIED="1537709610065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning/text_and_sequences" />
-    <SUITE FILE_PATH="coverage/py$salaries_and_expirience.coverage" NAME="salaries_and_expirience Coverage Results" MODIFIED="1541956094566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataScience_first_principles" />
+    <SUITE FILE_PATH="coverage/py$salaries_and_expirience.coverage" NAME="salaries_and_expirience Coverage Results" MODIFIED="1542173942734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataScience_first_principles" />
     <SUITE FILE_PATH="coverage/py$generator.coverage" NAME="generator Coverage Results" MODIFIED="1530905669860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_tricks" />
     <SUITE FILE_PATH="coverage/py$maze.coverage" NAME="maze Coverage Results" MODIFIED="1532387585118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/heuristic_search" />
+    <SUITE FILE_PATH="coverage/py$python_commons.coverage" NAME="python_commons Coverage Results" MODIFIED="1542103409230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataScience_first_principles" />
     <SUITE FILE_PATH="coverage/py$housing_prices_500_epochs.coverage" NAME="housing_prices_500_epochs Coverage Results" MODIFIED="1536336728282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning" />
     <SUITE FILE_PATH="coverage/py$gmm_classifier.coverage" NAME="gmm_classifier Coverage Results" MODIFIED="1531420206838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ai/unsupervised_learning" />
     <SUITE FILE_PATH="coverage/py$processing_the_labels_of_the_raw_imdb.coverage" NAME="processing_the_labels_of_the_raw_imdb Coverage Results" MODIFIED="1539320111278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning/text_and_sequences" />
@@ -75,8 +80,10 @@
     <SUITE FILE_PATH="coverage/py$inspect_data_for_jena_weather_dataset.coverage" NAME="inspect_data_for_jena_weather_dataset Coverage Results" MODIFIED="1539841294601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning/rnn" />
     <SUITE FILE_PATH="coverage/py$bit_counter.coverage" NAME="bit_counter Coverage Results" MODIFIED="1532455984396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ai/genetic_algorithms" />
     <SUITE FILE_PATH="coverage/py$hash.coverage" NAME="hash Coverage Results" MODIFIED="1531420162444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_tricks" />
+    <SUITE FILE_PATH="coverage/py$bar_charts.coverage" NAME="bar_charts Coverage Results" MODIFIED="1542204605465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataScience_first_principles/visualization" />
     <SUITE FILE_PATH="coverage/py$dd.coverage" NAME="dd Coverage Results" MODIFIED="1540882123146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning/deep_dreems" />
     <SUITE FILE_PATH="coverage/py$encoding_integer_sequence_into_binary_matrix.coverage" NAME="encoding_integer_sequence_into_binary_matrix Coverage Results" MODIFIED="1536004792435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning/common_and_base_features_ai" />
+    <SUITE FILE_PATH="coverage/py$set_implementation.coverage" NAME="set_implementation Coverage Results" MODIFIED="1542089041025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataScience_first_principles" />
     <SUITE FILE_PATH="coverage/py$preview.coverage" NAME="preview Coverage Results" MODIFIED="1540360060915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning/functional_api" />
   </component>
   <component name="DatabaseView">
@@ -134,40 +141,40 @@
     <session id="1200680778">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="58" />
-          <entry key="dummy" value="49" />
-          <entry key="py" value="63332" />
-          <entry key="txt" value="41" />
+          <entry key="Python Console" value="388" />
+          <entry key="dummy" value="65" />
+          <entry key="py" value="85968" />
+          <entry key="txt" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="90" />
-          <entry key="Python" value="63390" />
+          <entry key="PLAIN_TEXT" value="109" />
+          <entry key="Python" value="86356" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="png" value="1" />
-          <entry key="py" value="90" />
+          <entry key="py" value="104" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
-          <entry key="Python" value="90" />
+          <entry key="Python" value="104" />
         </counts>
       </usages-collector>
     </session>
@@ -177,113 +184,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="149">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deep_learning/functional_api/preview.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deep_learning/functional_api/two_input_question_answer_model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="40" selection-start-line="40" selection-end-line="41" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deep_learning/functional_api/implement_of_a_three_output_model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deep_learning/functional_api/assume_existence_4D_input_tensor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deep_learning/functional_api/layer_sharing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deep_learning/functional_api/siamense_vision_model_shared_convolution_base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deep_learning/callbacks/model_checkpoint_early_stopping_callbacks.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="61" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/distutils/msvccompiler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10013">
-              <caret line="623" column="8" selection-start-line="623" selection-start-column="8" selection-end-line="627" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deep_learning/callbacks/reduce_LR_on_plateau.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deep_learning/callbacks/custom_callback.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-                <marker date="1540533274342" expanded="true" signature="82:83" ph="..." />
-                <marker date="1540533274342" expanded="true" signature="82:88" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deep_learning/tensor_board/text_classification_model_to_use_with_TB.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -348,15 +248,6 @@
               <folding>
                 <marker date="1540826213132" expanded="true" signature="86:91" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1199943127/numpy/core/umath.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4692">
-              <caret line="2980" column="22" selection-start-line="2980" selection-start-column="22" selection-end-line="2980" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -443,18 +334,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/datasets/mnist.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="e#41#79#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deep_learning/gan/gan_generator_network.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2329">
@@ -469,8 +348,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deep_learning/common_and_base_features_ai/base_nets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="748">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
             </state>
           </provider>
         </entry>
@@ -478,8 +357,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataScience_first_principles/friendships.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="103" selection-end-column="1" />
+            <state relative-caret-position="1479">
+              <caret line="88" selection-start-line="88" selection-end-line="103" selection-end-column="1" />
               <folding>
                 <element signature="e#0#59#0" expanded="true" />
                 <marker date="1541954047769" expanded="true" signature="3884:3889" ph="..." />
@@ -493,7 +372,7 @@
         <entry file="file://$PROJECT_DIR$/DataScience_first_principles/salaries_and_expirience.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
               <folding>
                 <marker date="1541956094559" expanded="true" signature="779:784" ph="..." />
               </folding>
@@ -501,11 +380,184 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataScience_first_principles/topics_of_interest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="425">
+              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataScience_first_principles/_python_commons.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3774">
+              <caret line="223" selection-start-line="223" selection-end-line="223" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+                <marker date="1542144634724" expanded="true" signature="704:709" ph="..." />
+                <marker date="1542144634724" expanded="true" signature="1860:1865" ph="..." />
+                <marker date="1542144634724" expanded="true" signature="2302:2307" ph="..." />
+                <marker date="1542144634724" expanded="true" signature="2362:2367" ph="..." />
+                <marker date="1542144634724" expanded="true" signature="2945:2950" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataScience_first_principles/set_implementation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+              <folding>
+                <marker date="1542089041018" expanded="true" signature="60:61" ph="..." />
+                <marker date="1542089041018" expanded="true" signature="60:66" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataScience_first_principles/visualization/matplotlib.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/matplotlib/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#3257#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataScience_first_principles/visualization/bar_charts.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataScience_first_principles/visualization/line_charts.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataScience_first_principles/visualization/scatterplots.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataScience_first_principles/linear_algebra/vectors.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+                <marker date="1542210200666" expanded="true" signature="72:77" ph="..." />
+                <marker date="1542210200666" expanded="true" signature="200:205" ph="..." />
+                <marker date="1542210200666" expanded="true" signature="331:336" ph="..." />
+                <marker date="1542210200666" expanded="true" signature="516:521" ph="..." />
+                <marker date="1542210200666" expanded="true" signature="629:634" ph="..." />
+                <marker date="1542210200666" expanded="true" signature="729:734" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataScience_first_principles/linear_algebra/matrices.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <marker date="1542347877754" expanded="true" signature="79:84" ph="..." />
+                <marker date="1542347877754" expanded="true" signature="222:227" ph="..." />
+                <marker date="1542347877754" expanded="true" signature="294:299" ph="..." />
+                <marker date="1542347877754" expanded="true" signature="440:445" ph="..." />
+                <marker date="1542347877754" expanded="true" signature="752:757" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataScience_first_principles/linear_algebra/describing_single_set_of_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="634">
+              <caret line="149" column="16" lean-forward="true" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+                <marker date="1542782976501" expanded="true" signature="278:283" ph="..." />
+                <marker date="1542782976501" expanded="true" signature="715:720" ph="..." />
+                <marker date="1542782976501" expanded="true" signature="866:1082" ph="..." />
+                <marker date="1542782976501" expanded="true" signature="1177:1182" ph="..." />
+                <marker date="1542782976501" expanded="true" signature="1243:1248" ph="..." />
+                <marker date="1542782976501" expanded="true" signature="1394:1399" ph="..." />
+                <marker date="1542782976501" expanded="true" signature="1579:1584" ph="..." />
+                <marker date="1542782976501" expanded="true" signature="1685:1690" ph="..." />
+                <marker date="1542782976501" expanded="true" signature="1864:1868" ph="..." />
+                <marker date="1542782976501" expanded="true" signature="1924:1929" ph="..." />
+                <marker date="1542782976501" expanded="true" signature="2095:2100" ph="..." />
+                <marker date="1542782976501" expanded="true" signature="2665:2670" ph="..." />
+                <marker date="1542782976501" expanded="true" signature="3232:3237" ph="..." />
+                <marker date="1542782976501" expanded="true" signature="4089:4094" ph="..." />
+                <marker date="1542782976501" expanded="true" signature="4153:4158" ph="..." />
+                <marker date="1542782976501" expanded="true" signature="4240:4245" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataScience_first_principles/linear_algebra/correlation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <marker date="1542376615968" expanded="true" signature="21:26" ph="..." />
+                <marker date="1542376615968" expanded="true" signature="149:154" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DataScience_first_principles/hypothesis_and_inference/flipping_a_coin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="803">
+              <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+              <folding>
+                <marker date="1542831833928" expanded="true" signature="56:61" ph="..." />
+                <marker date="1542831833928" expanded="true" signature="384:389" ph="..." />
+                <marker date="1542831833928" expanded="true" signature="695:700" ph="..." />
+                <marker date="1542831833928" expanded="true" signature="809:814" ph="..." />
+                <marker date="1542831833928" expanded="true" signature="974:979" ph="..." />
+                <marker date="1542831833928" expanded="true" signature="1148:1153" ph="..." />
+                <marker date="1542831833928" expanded="true" signature="2386:2391" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -523,9 +575,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sklearn.cluster</find>
-      <find>Stratifi</find>
-      <find>quotes_</find>
       <find>sales.csv</find>
       <find>4.3</find>
       <find>cm</find>
@@ -553,6 +602,9 @@
       <find>savi_dir</find>
       <find>discriminator</find>
       <find>friends_of_friend_</find>
+      <find>word_counts</find>
+      <find>reduce</find>
+      <find>sum_of_squares</find>
     </findStrings>
     <replaceStrings>
       <replace>imgBlkFront</replace>
@@ -566,19 +618,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/deep_learning/convnets/vgg16_v2.py" />
-        <option value="$PROJECT_DIR$/deep_learning/convnets/load_model.py" />
-        <option value="$PROJECT_DIR$/deep_learning/convnets/filter_visualization.py" />
-        <option value="$PROJECT_DIR$/deep_learning/convnets/heatmaps_of_class_activation.py" />
-        <option value="$PROJECT_DIR$/deep_learning/text_and_sequences/world_level_one_hot_enc.py" />
-        <option value="$PROJECT_DIR$/deep_learning/text_and_sequences/char_lvl_one_hot_enc.py" />
-        <option value="$PROJECT_DIR$/deep_learning/text_and_sequences/using_keras_for_word_lvl_one_hot_enc.py" />
-        <option value="$PROJECT_DIR$/deep_learning/text_and_sequences/word_lvl_one_hot_enc_with_hashing_trick.py" />
-        <option value="$PROJECT_DIR$/deep_learning/text_and_sequences/imdb_and_embedding_layer.py" />
-        <option value="$PROJECT_DIR$/deep_learning/text_and_sequences/processing_the_labels_of_the_raw_imdb.py" />
-        <option value="$PROJECT_DIR$/deep_learning/rnn/pseudo_rnn.py" />
-        <option value="$PROJECT_DIR$/deep_learning/rnn/numpy_implementation_for_simple_rnn.py" />
-        <option value="$PROJECT_DIR$/deep_learning/rnn/SimpleRNN.py" />
         <option value="$PROJECT_DIR$/deep_learning/rnn/simpleRNN_imdb.py" />
         <option value="$PROJECT_DIR$/deep_learning/rnn/pseudo_lstm.py" />
         <option value="$PROJECT_DIR$/deep_learning/rnn/lstm_rnn_imdb.py" />
@@ -617,6 +656,19 @@
         <option value="$PROJECT_DIR$/DataScience_first_principles/salaries_and_expirience.py" />
         <option value="$PROJECT_DIR$/DataScience_first_principles/piad_accounts.py" />
         <option value="$PROJECT_DIR$/DataScience_first_principles/topics_of_interest.py" />
+        <option value="$PROJECT_DIR$/DataScience_first_principles/python_commons.py" />
+        <option value="$PROJECT_DIR$/DataScience_first_principles/set.py" />
+        <option value="$PROJECT_DIR$/DataScience_first_principles/set_implementation.py" />
+        <option value="$PROJECT_DIR$/DataScience_first_principles/visualization/matplotlib.py" />
+        <option value="$PROJECT_DIR$/DataScience_first_principles/visualization/bar_charts.py" />
+        <option value="$PROJECT_DIR$/DataScience_first_principles/visualization/line_charts.py" />
+        <option value="$PROJECT_DIR$/DataScience_first_principles/visualization/scatterplots.py" />
+        <option value="$PROJECT_DIR$/DataScience_first_principles/linear_algebra/vectors.py" />
+        <option value="$PROJECT_DIR$/DataScience_first_principles/linear_algebra/matrices.py" />
+        <option value="$PROJECT_DIR$/DataScience_first_principles/_python_commons.py" />
+        <option value="$PROJECT_DIR$/DataScience_first_principles/linear_algebra/correlation.py" />
+        <option value="$PROJECT_DIR$/DataScience_first_principles/linear_algebra/describing_single_set_of_data.py" />
+        <option value="$PROJECT_DIR$/DataScience_first_principles/hypothesis_and_inference/flipping_a_coin.py" />
       </list>
     </option>
   </component>
@@ -626,7 +678,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="850" />
     <option name="width" value="830" />
     <option name="height" value="1050" />
@@ -664,7 +716,14 @@
             <path>
               <item name="py" type="b2602c69:ProjectViewProjectNode" />
               <item name="py" type="462c0819:PsiDirectoryNode" />
-              <item name="kaggle" type="462c0819:PsiDirectoryNode" />
+              <item name="DataScience_first_principles" type="462c0819:PsiDirectoryNode" />
+              <item name="hypothesis_and_inference" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="py" type="b2602c69:ProjectViewProjectNode" />
+              <item name="py" type="462c0819:PsiDirectoryNode" />
+              <item name="DataScience_first_principles" type="462c0819:PsiDirectoryNode" />
+              <item name="linear_algebra" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -675,6 +734,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="sum_of_squares&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Python" />
@@ -716,8 +776,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.topics_of_interest">
-    <configuration name="dd" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.describing_single_set_of_data">
+    <configuration name="bar_charts" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -725,12 +785,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deep_learning/deep_dreems" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataScience_first_principles/visualization" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_learning/deep_dreems/dd.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataScience_first_principles/visualization/bar_charts.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -739,7 +799,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="salaries_and_expirience" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="describing_single_set_of_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -747,12 +807,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataScience_first_principles" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataScience_first_principles/linear_algebra" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataScience_first_principles/salaries_and_expirience.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataScience_first_principles/linear_algebra/describing_single_set_of_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -761,7 +821,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="text_classification_model_to_use_with_TB" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="line_charts" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -769,12 +829,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deep_learning/tensor_board" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataScience_first_principles/visualization" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_learning/tensor_board/text_classification_model_to_use_with_TB.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataScience_first_principles/visualization/line_charts.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -783,7 +843,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="text_generation_lstm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="matrices" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -791,12 +851,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deep_learning/generative_deep_learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataScience_first_principles/linear_algebra" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_learning/generative_deep_learning/text_generation_lstm.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataScience_first_principles/linear_algebra/matrices.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -805,7 +865,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="topics_of_interest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="scatterplots" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -813,12 +873,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataScience_first_principles" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataScience_first_principles/visualization" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataScience_first_principles/topics_of_interest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataScience_first_principles/visualization/scatterplots.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -828,19 +888,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.text_classification_model_to_use_with_TB" />
-      <item itemvalue="Python.text_generation_lstm" />
-      <item itemvalue="Python.dd" />
-      <item itemvalue="Python.salaries_and_expirience" />
-      <item itemvalue="Python.topics_of_interest" />
+      <item itemvalue="Python.bar_charts" />
+      <item itemvalue="Python.line_charts" />
+      <item itemvalue="Python.scatterplots" />
+      <item itemvalue="Python.matrices" />
+      <item itemvalue="Python.describing_single_set_of_data" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.topics_of_interest" />
-        <item itemvalue="Python.salaries_and_expirience" />
-        <item itemvalue="Python.dd" />
-        <item itemvalue="Python.text_generation_lstm" />
-        <item itemvalue="Python.text_classification_model_to_use_with_TB" />
+        <item itemvalue="Python.describing_single_set_of_data" />
+        <item itemvalue="Python.matrices" />
+        <item itemvalue="Python.scatterplots" />
+        <item itemvalue="Python.line_charts" />
+        <item itemvalue="Python.bar_charts" />
       </list>
     </recent_temporary>
   </component>
@@ -1016,7 +1076,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540870756484</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="12.11.2018">
+      <created>1542006827981</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1542006827981</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1061,29 +1128,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="769" y="0" width="911" height="1050" extended-state="6" />
+    <frame x="724" y="0" width="956" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25086308" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24945295" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24947807" />
-      <window_info id="Favorites" order="2" side_tool="true" weight="0.3297062" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.3295583" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3377551" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49837837" weight="0.36020407" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47244897" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49837837" weight="0.40510204" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32908458" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49906367" weight="0.45204082" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5016216" side_tool="true" weight="0.45714286" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4987805" weight="0.55492157" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4987805" weight="0.5540816" />
       <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="11" visible="true" weight="0.48163265" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.5877551" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24947807" />
-      <window_info anchor="right" x="433" y="352" width="995" height="663" id="SciView" order="3" weight="0.79107726" />
+      <window_info anchor="right" x="433" y="352" width="995" height="663" id="SciView" order="3" weight="0.790487" />
       <window_info anchor="right" id="Database" order="4" weight="0.3297062" />
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
       <window_info anchor="right" x="0" y="0" width="170" height="637" id="Documentation" order="6" side_tool="true" weight="0.27073172" />
@@ -1137,7 +1205,8 @@
     <MESSAGE value="20.09.2018" />
     <MESSAGE value="23.10.2018" />
     <MESSAGE value="30.10.2018" />
-    <option name="LAST_COMMIT_MESSAGE" value="30.10.2018" />
+    <MESSAGE value="12.11.2018" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.11.2018" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1167,104 +1236,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/deep_learning/rnn/numpy_implementation_for_simple_rnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46784">
-          <caret line="2780" column="34" selection-start-line="2780" selection-start-column="34" selection-end-line="2780" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/layers/recurrent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6596">
-          <caret line="407" selection-start-line="407" selection-end-line="407" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/engine/base_layer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1734">
-          <caret line="118" column="37" selection-start-line="118" selection-start-column="27" selection-end-line="118" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deep_learning/rnn/simpleRNN_imdb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="46" column="48" selection-end-line="50" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deep_learning/rnn/pseudo_lstm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deep_learning/rnn/lstm_rnn_imdb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deep_learning/rnn/gru_based_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="110" column="21" lean-forward="true" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deep_learning/rnn/training_and_evaluating_lstm_reverse_sequence.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deep_learning/rnn/bidirectional_gru.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="83" column="13" lean-forward="true" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/preprocessing/sequence.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deep_learning/rnn/inspect_data_for_jena_weather_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1363">
-          <caret lean-forward="true" selection-end-line="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/client/session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="1336" column="21" selection-start-line="1336" selection-start-column="21" selection-end-line="1336" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ai/ensemble_learning/random_forests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="44" column="14" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ai/ensemble_learning/class_imbalance.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1296,9 +1267,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1306,9 +1274,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1836">
           <caret line="113" column="15" selection-start-line="113" selection-start-column="15" selection-end-line="113" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1316,9 +1281,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1326,9 +1288,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="40" selection-start-line="40" selection-end-line="41" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1336,9 +1295,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1353,9 +1309,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1384,6 +1337,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1199943127/numpy/core/umath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4692">
+          <caret line="2980" column="22" selection-start-line="2980" selection-start-column="22" selection-end-line="2980" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/datasets/mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1199943127/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1926">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#18419#18855#1" expanded="true" />
+            <element signature="e#151309#151639#1" expanded="true" />
+            <element signature="e#191017#191351#1" expanded="true" />
+            <element signature="e#192203#192369#1" expanded="true" />
+            <element signature="e#193794#193939#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1199943127/0c803722736cd4fac7d160557b7eb008.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="3034" column="36" selection-start-line="3034" selection-start-column="36" selection-end-line="3034" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1455,13 +1443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1199943127/numpy/core/umath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4692">
-          <caret line="2980" column="22" selection-start-line="2980" selection-start-column="22" selection-end-line="2980" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deep_learning/generative_deep_learning/text_generation_lstm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1529,16 +1510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/datasets/mnist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#41#79#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deep_learning/gan/gan_generator_network.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2329">
@@ -1551,25 +1522,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/deep_learning/common_and_base_features_ai/base_nets.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataScience_first_principles/salaries_and_expirience.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <marker date="1541956094559" expanded="true" signature="779:784" ph="..." />
-          </folding>
+        <state relative-caret-position="748">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DataScience_first_principles/friendships.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="103" selection-end-column="1" />
+        <state relative-caret-position="1479">
+          <caret line="88" selection-start-line="88" selection-end-line="103" selection-end-column="1" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
             <marker date="1541954047769" expanded="true" signature="3884:3889" ph="..." />
@@ -1578,10 +1539,169 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DataScience_first_principles/salaries_and_expirience.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <marker date="1541956094559" expanded="true" signature="779:784" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DataScience_first_principles/topics_of_interest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="425">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataScience_first_principles/_python_commons.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3774">
+          <caret line="223" selection-start-line="223" selection-end-line="223" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1542144634724" expanded="true" signature="704:709" ph="..." />
+            <marker date="1542144634724" expanded="true" signature="1860:1865" ph="..." />
+            <marker date="1542144634724" expanded="true" signature="2302:2307" ph="..." />
+            <marker date="1542144634724" expanded="true" signature="2362:2367" ph="..." />
+            <marker date="1542144634724" expanded="true" signature="2945:2950" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataScience_first_principles/set_implementation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+          <folding>
+            <marker date="1542089041018" expanded="true" signature="60:61" ph="..." />
+            <marker date="1542089041018" expanded="true" signature="60:66" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataScience_first_principles/visualization/matplotlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/matplotlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#3257#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataScience_first_principles/visualization/bar_charts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataScience_first_principles/visualization/line_charts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataScience_first_principles/visualization/scatterplots.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataScience_first_principles/linear_algebra/vectors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <marker date="1542210200666" expanded="true" signature="72:77" ph="..." />
+            <marker date="1542210200666" expanded="true" signature="200:205" ph="..." />
+            <marker date="1542210200666" expanded="true" signature="331:336" ph="..." />
+            <marker date="1542210200666" expanded="true" signature="516:521" ph="..." />
+            <marker date="1542210200666" expanded="true" signature="629:634" ph="..." />
+            <marker date="1542210200666" expanded="true" signature="729:734" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataScience_first_principles/linear_algebra/matrices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <marker date="1542347877754" expanded="true" signature="79:84" ph="..." />
+            <marker date="1542347877754" expanded="true" signature="222:227" ph="..." />
+            <marker date="1542347877754" expanded="true" signature="294:299" ph="..." />
+            <marker date="1542347877754" expanded="true" signature="440:445" ph="..." />
+            <marker date="1542347877754" expanded="true" signature="752:757" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataScience_first_principles/linear_algebra/correlation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <marker date="1542376615968" expanded="true" signature="21:26" ph="..." />
+            <marker date="1542376615968" expanded="true" signature="149:154" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataScience_first_principles/linear_algebra/describing_single_set_of_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="149" column="16" lean-forward="true" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1542782976501" expanded="true" signature="278:283" ph="..." />
+            <marker date="1542782976501" expanded="true" signature="715:720" ph="..." />
+            <marker date="1542782976501" expanded="true" signature="866:1082" ph="..." />
+            <marker date="1542782976501" expanded="true" signature="1177:1182" ph="..." />
+            <marker date="1542782976501" expanded="true" signature="1243:1248" ph="..." />
+            <marker date="1542782976501" expanded="true" signature="1394:1399" ph="..." />
+            <marker date="1542782976501" expanded="true" signature="1579:1584" ph="..." />
+            <marker date="1542782976501" expanded="true" signature="1685:1690" ph="..." />
+            <marker date="1542782976501" expanded="true" signature="1864:1868" ph="..." />
+            <marker date="1542782976501" expanded="true" signature="1924:1929" ph="..." />
+            <marker date="1542782976501" expanded="true" signature="2095:2100" ph="..." />
+            <marker date="1542782976501" expanded="true" signature="2665:2670" ph="..." />
+            <marker date="1542782976501" expanded="true" signature="3232:3237" ph="..." />
+            <marker date="1542782976501" expanded="true" signature="4089:4094" ph="..." />
+            <marker date="1542782976501" expanded="true" signature="4153:4158" ph="..." />
+            <marker date="1542782976501" expanded="true" signature="4240:4245" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataScience_first_principles/hypothesis_and_inference/flipping_a_coin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="803">
+          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+          <folding>
+            <marker date="1542831833928" expanded="true" signature="56:61" ph="..." />
+            <marker date="1542831833928" expanded="true" signature="384:389" ph="..." />
+            <marker date="1542831833928" expanded="true" signature="695:700" ph="..." />
+            <marker date="1542831833928" expanded="true" signature="809:814" ph="..." />
+            <marker date="1542831833928" expanded="true" signature="974:979" ph="..." />
+            <marker date="1542831833928" expanded="true" signature="1148:1153" ph="..." />
+            <marker date="1542831833928" expanded="true" signature="2386:2391" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
