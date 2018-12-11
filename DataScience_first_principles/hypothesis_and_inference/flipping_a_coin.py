@@ -1,4 +1,4 @@
-import math
+import math, random
 
 def normal_approximation_to_binomial(n, p):
     """finds mu and sigma corresponding to a Binomial(n, p)"""
@@ -99,3 +99,55 @@ mu = p_hat
 sigma = math.sqrt(p_hat * (1 - p_hat) / 1000) # 0.0158
 
 normal_two_sided_bounds(0.95, mu, sigma)    # [0.4940, 0.5560]
+
+p_hat = 540 / 1000
+mu = p_hat
+sigma = math.sqrt(p_hat * (1 - p_hat) / 1000) # 0.0158
+normal_two_sided_bounds(0.95, mu, sigma)      # [0.5091, 0.5709]
+
+# P-hacking
+
+def run_experiment():
+    """flip a fair coin 1000 times, True = heads, False = tails"""
+    return [random.random() < 0.5 for _ in range(1000)]
+
+def reject_fairness(experiment):
+    """using the 5% significance levels"""
+    num_heads = len([flip for flip in experiment if flip])
+    return num_heads < 469 or num_heads > 531
+
+random.seed(0)
+experiments = [run_experiment() for _ in range(1000)]
+num_rejections = len([experiment
+                      for experiment in experiments
+                      if reject_fairness(experiment)])
+
+print(num_rejections) # 46
+
+# Example: Running an A/B test
+
+def estimated_parameters(N, n):
+    p = n / N
+    sigma = math.sqrt(p * (1 - p) / N)
+    return p, sigma
+
+def a_b_test_statistic(N_A, n_A, N_B, n_B):
+    p_A, sigma_A = estimated_parameters(N_A, n_A)
+    p_B, sigma_B = estimated_parameters(N_B, n_B)
+    return (p_B - p_A) / math.sqrt(sigma_A ** 2 + sigma_B ** 2)
+
+z = a_b_test_statistic(1000, 200, 1000, 180) # -1.14
+two_sided_p_value(z) # 0.254
+
+z = a_b_test_statistic(1000, 200, 1000, 150)   # -2.94
+two_sided_p_value(z) # 0.003
+
+def B(alpha, beta):
+    """a normalizing constant so that the total probability is 1"""
+    return math.gammma(alpha) * math.gamma(beta) / math.gamma(alpha, beta)
+
+def beta_pdf(x, alpha, beta):
+    if x < 0 or x > 1:     # no weight outside of [0, 1]
+        return 0
+    return x ** (alpha - 1) * (1 - x) ** (beta - 1) / B(alpha, beta)
+

@@ -1,7 +1,7 @@
 from __future__ import division
 from collections import Counter
 from DataScience_first_principles.linear_algebra.vectors import sum_of_squares
-import math
+import math, random
 from matplotlib import pyplot as plt
 
 def mean(x):
@@ -51,18 +51,23 @@ def data_range(x):
 
 print(data_range(v))
 
+# Вектор отклонений от среднего (центрировать вектор)
 def de_mean(x):
     """translate x by subtracting its mean ( so the result has mean 0 )"""
     x_bar = mean(x)
     return [x_i - x_bar for x_i in x]
 
+# Дисперсия - это средняя сумма квадратов отклонений от среднего
+# в зарубежной литературе этот показатель носит название variance
+# Функция variance вычисляет несмещенную оценку выборочной дисперсии
+# (n - 1 в знаменателе)
 def variance(x):
     """assumes x has at least two elements"""
     n = len(x)
     deviations = de_mean(x)
     return sum_of_squares(deviations) / (n - 1)
 
-print(variance(v))
+print(variance(v), 'variance')
 
 def standard_deviation(x):
     return math.sqrt(variance(x))
